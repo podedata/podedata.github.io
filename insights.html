@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>PODE Data | Insights</title>
+		<link rel="icon" href="images/favicon.ico" sizes="32x32">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-jL6SPxGo3NfhldMOq1zQ7D8R3qguyHpXY/hxPH95y5VSA5bLZrceYBtcEywEADBB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<style>
+			/* CSS personalizado para as abas */
+			.nav-tabs {
+				display: flex;
+				justify-content: center;
+				border-bottom: 2px solid #ddd;
+				margin-bottom: 20px;
+				padding: 0;
+				color: white;
+			}
+
+			.nav-tabs .nav-item {
+				margin: 0 30px;
+			}
+
+			.nav-tabs .nav-link {
+				border: none;
+				padding: 10px 20px;
+				font-size: 20px;
+				font-weight: bold;
+				color: #0596af !important;
+				background-color: rgb(236, 236, 236);
+				border-radius: 20px;
+				transition: background-color 0.3s ease, color 0.3s ease;
+			}
+
+			.nav-tabs .nav-link.active {
+				color: #0056b3 !important; /* Cor do texto da aba ativa */
+				background-color: rgba(147, 156, 163, 0.712) !important; /* Fundo da aba ativa */
+			}
+
+			.nav-tabs .nav-link:hover {
+				background-color: #ddd !important; /* Fundo ao passar o mouse */
+				color: #000;
+			}
+
+			#backToTopBtn {
+				position: fixed;
+				bottom: 20px;  /* Distância da parte inferior */
+				right: 20px;   /* Distância da parte direita */
+				display: none; /* Inicialmente escondido */
+				background-color: #007bff;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				padding: 10px 20px;
+				font-size: 16px;
+				cursor: pointer;
+				transition: opacity 0.3s; /* Animação suave */
+			}
+
+			#backToTopBtn:hover {
+				background-color: #0056b3; /* Cor ao passar o mouse */
+			}
+			.whatsapp-link {
+				position: fixed;
+				width: 60px;
+				height: 60px;
+				bottom: 40px;
+				right: 40px;
+				background-color: #25d366;
+				color: #fff;
+				border-radius: 50px;
+				text-align: center;
+				font-size: 30px;
+				box-shadow: 1px 1px 2px #888;
+				z-index: 1000;
+			}
+			.fa-whatsapp {
+				margin-top: 16px;
+			}
+		</style>
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Logo -->
+									<h1><a href="index.html" id="logo">PODE Data</a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Sobre</a>
+										<a href="solucoes.html">Soluções</a>
+										<a href="insights.html">Insights</a>
+										<a href="contato.html">Contato</a>
+									</nav>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Tabs de Navegação -->
+								<ul class="nav nav-tabs" id="dashboardTabs" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="powerbi-tab" data-toggle="tab" href="#powerbi" role="tab" aria-controls="powerbi" aria-selected="true">Power BI</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="tableau-tab" data-toggle="tab" href="#tableau" role="tab" aria-controls="tableau" aria-selected="false">Tableau</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="metabase-tab" data-toggle="tab" href="#metabase" role="tab" aria-controls="metabase" aria-selected="false">Metabase BI</a>
+									</li>
+								</ul>
+
+								<!-- Tabs Content-->
+								<div class="tab-content" id="dashboardTabsContent">
+
+									<!-- Power BI Tab -->
+									<div class="tab-pane fade show active" id="powerbi" role="tabpanel" aria-labelledby="powerbi-tab">
+										<h3>DRE Gerencial</h3>
+										<p>
+											Um exemplo de dashboard para acompanhar seu demonstrativo de resultado, podendo navegar pelas contas 
+											contábeis e na mesma linha analisar a variação horizontal, variação vertical tudo isso junto com a análise 
+											de orçamento. Não obrigatoriamente seja determinante, mas baseado nesse modelo pode-se entender a flexibilidade
+											e possibilidades que uma análise de dados bem estruturada pode proporcionar.
+										</p>
+										<p style="text-align: center;">
+											<iframe title="X_DRE" width="800" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiOTFiYjU1OWMtYTNjYS00N2I1LWE5ZWEtYmZmOGMzYjE1ODE5IiwidCI6ImVkNzJlZGE5LTEyYWQtNDI3Zi04MjM0LWU2Nzc3NTU3OTY1NCJ9&pageName=ReportSectionfc6cdec6bde206315a6c" frameborder="0" allowFullScreen="true"></iframe>
+										</p>
+										<hr style="border: none; border-top: 2px dashed rgb(172, 189, 207); margin: 30px 0;">
+										<h3>Análise de Faturamento</h3>
+										<p>
+											Como modelo para análise de faturamento, vemos a possibilidade de a vista valores que podem mudar totalmente o rumo de uma negociação.
+											Muitas vezes, por não haver uma visão clara ou disponível em modo de urgência, corre-se o risco de perder um oportunidade de negócio importante,
+											já, por exemplo, com uma comparativo de faturamento mensal, pode-se ter a visão lado a lado de valores impresincindíveis para atingimento 
+											de uma meta ou mesmo conseguir aquele tão sonhado cliente para sua carteira.
+										</p>
+										<p style="text-align: center;">
+											<iframe title="X_DRE" 
+												width="800" 
+												height="550" 
+												src="https://app.powerbi.com/view?r=eyJrIjoiMGEyYTk3MzUtMGVlNy00NzljLWI2OGEtNTI3MThhM2Q0ZDg3IiwidCI6ImVkNzJlZGE5LTEyYWQtNDI3Zi04MjM0LWU2Nzc3NTU3OTY1NCJ9" 
+												frameborder="0" 
+												allowFullScreen="true"
+												style="display: block; margin: 0 auto;">
+											</iframe>
+										</p>
+										<hr style="border: none; border-top: 2px dashed rgb(172, 189, 207); margin: 30px 0;">
+										<h3>Fluxo de Caixa por Centro de Custo</h3>
+										<p>
+											O Fluxo de Caixa por Centro de Custo apresentado nesta seção é um exemplo prático de como análises personalizadas 
+											podem oferecer insights valiosos. Esse tipo de análise organiza os dados por áreas específicas, facilitando a alocação 
+											de recursos e o entendimento de como cada setor impacta o caixa. Além disso, oferecemos outros tipos de análises, 
+											como Fluxo de Caixa Direto, Indireto, Projetado ou Livre, cada uma atendendo a diferentes objetivos financeiros e 
+											estratégicos. Independentemente do formato, o importante é transformar dados em decisões seguras e eficazes.
+
+											Navegue entre as sessões <strong style="color: #1b1a1a; font-weight: bold;">VISÃO GERAL</strong>, 
+											<span style="color: #1b1a1a; font-weight: bold;">ENTRADAS</span> e <span style="color: #1b1a1a; font-weight: bold;">
+											SAÍDAS</span> para conhecer um pouco mais do modelo e das possibilidades.
+										</p>
+										<p style="text-align: center;">
+											<iframe title="X_DRE" 
+												width="800" 
+												height="550" 
+												src="https://app.powerbi.com/view?r=eyJrIjoiNzg1MjUzODItOTAwOC00MWVjLWEwYzYtNDRmYThlOGQwNTY4IiwidCI6ImVkNzJlZGE5LTEyYWQtNDI3Zi04MjM0LWU2Nzc3NTU3OTY1NCJ9" 
+												frameborder="0" 
+												allowFullScreen="true"
+												style="display: block; margin: 0 auto;">
+											</iframe>
+										</p>
+										<hr style="border: none; border-top: 2px dashed rgb(172, 189, 207); margin: 30px 0;">
+									</div>
+
+									<!-- Tableau Tab -->
+									<div class="tab-pane fade" id="tableau" role="tabpanel" aria-labelledby="tableau-tab">
+										<h3>Exemplo Tableau</h3>
+										<p>
+											No Tableau, exploramos modelos poderosos que ilustram a flexibilidade e performance excepcionais da 
+											ferramenta, projetada para transformar grandes volumes de dados em insights claros e acionáveis. 
+											Com visualizações interativas e de alto desempenho, o Tableau permite uma análise aprofundada, 
+											adaptando-se perfeitamente a diferentes necessidades e contextos. Navegue pelas abas para descobrir 
+											cada visualização, compreendendo detalhes importantes e macro tendências que auxiliam na tomada de 
+											decisões informadas e estratégicas.
+										</p>
+										<tableau-viz id="tableauViz" src="https://public.tableau.com/views/SupermarketAnalysis_17059336212200/KPIOverview?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+											iframe-attr-loading="lazy" iframe-attr-class="red-border">
+											<viz-filter field="YEAR(Order Date)" value="2023"></viz-filter>
+											<iframe-style>
+												.red-border { border: 5px solid red !important; }
+											</iframe-style>
+										</tableau-viz>
+										<tableau-viz 
+											id="tableauViz" 
+											src='https://public.tableau.com/views/FinancialDashboardFinancialStatementPerformanceReport/Dashboard8?:language=pt-BR&:sid=&:redirect=auth&:toolbar=n&:display_count=n&:origin=viz_share_link'
+											iframe-attr-loading="lazy" iframe-attr-class="red-border">
+											<iframe-style>
+												.red-border { border: 5px solid red !important; }
+											</iframe-style>
+										</tableau-viz>
+									</div>
+
+									<hr style="border: none; border-top: 2px dashed rgb(172, 189, 207); margin: 30px 0;">
+
+									<!-- Metabase Tab -->
+									<div class="tab-pane fade" id="metabase" role="tabpanel" aria-labelledby="metabase-tab">
+										<h3>Metabase BI</h3>
+										<p>
+											Apresentamos uma ferramenta poderosa e versátil, com grande potencial para atender a diversas necessidades de 
+											análise de dados. Por ser uma solução open source, o Metabase oferece uma série de funcionalidades que tornam 
+											a visualização e exploração de dados mais acessíveis e intuitivas. Com uma interface amigável e recursos robustos, 
+											permite que usuários de diferentes níveis de experiência realizem consultas, criem dashboards interativos e 
+											compartilhem insights valiosos de forma simples e eficaz.
+										</p>
+										<p style="text-align: center;">
+											<iframe title=""
+												src="https://www.metabase.com/images/home/dashboards.mp4"
+												width="800" 
+												height="550"
+												frameborder="0" 
+												allowFullScreen="true"
+												style="display: block; margin: 0 auto;">
+											</iframe>
+
+										</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Footer Wrapper -->
+				<footer id="footer" class="container">
+					<!-- Contact Section -->
+					<section>
+						<h2 style="text-align: center; margin-bottom: 30px;">Entre em contato conosco</h2>
+						<div class="row aln-center">
+							<!-- Informações de contato -->
+							<div class="col-6 col-12-small">
+								<dl class="contact">
+									<dt><strong>WhatsApp</strong></dt>
+									<dd><a href="https://wa.me/5547991977935">(47)9 9197-7935</a></dd>
+									<dt><strong>E-mail</strong></dt>
+									<dd><a href="mailto:contato@podedata.com.br">contato@podedata.com.br</a></dd>
+								</dl>
+							</div>
+						</div>
+					</section>
+
+					<!-- Copyright -->
+					<div id="copyright">
+						<p>&copy; 2024 Pode Data. All rights reserved. Design basead on: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					<div>
+						<a class="whatsapp-link" href="https://wa.me/5547991977935" target="_blank">
+						  <i class="fa fa-whatsapp"></i>
+						</a>
+					  </div>
+				</footer>
+
+		</div>
+
+		<!-- Botão de Voltar ao Início -->
+			<button id="backToTopBtn" class="btn btn-primary">Voltar ao Início</button>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+		<!-- Scripts do Bootstrap -->
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38pFfSKyIDQUOhcWr7x9JVoGht" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIqolKYRRp3avEPypDqg9mA3hSxRZBlDsgZCkThbMXXeMgFvX+H" crossorigin="anonymous"></script>
+
+			<script>
+				// Obtém o botão
+				let backToTopBtn = document.getElementById("backToTopBtn");
+
+				// Função para controlar a visibilidade do botão ao rolar a página
+				window.onscroll = function() {
+					if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+						// Se o usuário rolar 100px ou mais, o botão aparece
+						backToTopBtn.style.display = "block";
+					} else {
+						// Se estiver no topo da página, o botão desaparece
+						backToTopBtn.style.display = "none";
+					}
+				};
+
+				// Função para rolar a página até o topo quando o botão for clicado
+				backToTopBtn.onclick = function() {
+					document.body.scrollTop = 0; // Para Safari
+					document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
+				}
+			</script>
+
+			<script type="module" src="https://embedding.tableauusercontent.com/tableau.embedding.3.1.0.min.js"></script>
+
+	</body>
+</html>
