@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dashboards</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<style>
+			.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+				background-color: #007BFF;
+				color: #fff;
+				border-color: #007BFF;
+			}
+			.nav-tabs .nav-link {
+				color: #007BFF;
+			}
+		</style>
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<section id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h1><a href="index.html" id="logo">PODE Data</a></h1>
+							<nav id="nav">
+								<a href="index.html">Sobre</a>
+								<a href="solucoes.html">Soluções</a>
+								<a href="modelos.html">Modelos</a>
+								<a href="dashboards.html">Dashboards</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Content -->
+			<section id="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Tabs Navigation -->
+							<ul class="nav nav-tabs" id="dashboardTabs" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="powerbi-tab" data-toggle="tab" href="#powerbi" role="tab" aria-controls="powerbi" aria-selected="true">Power BI</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="tableau-tab" data-toggle="tab" href="#tableau" role="tab" aria-controls="tableau" aria-selected="false">Tableau</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="metabase-tab" data-toggle="tab" href="#metabase" role="tab" aria-controls="metabase" aria-selected="false">Metabase</a>
+								</li>
+							</ul>
+
+							<!-- Tabs Content -->
+							<div class="tab-content" id="dashboardTabsContent">
+
+								<!-- Power BI Tab -->
+								<div class="tab-pane fade show active" id="powerbi" role="tabpanel" aria-labelledby="powerbi-tab">
+									<h3>DRE Gerencial</h3>
+									<p>
+										Um exemplo de dashboard para acompanhar seu demonstrativo de resultado...
+									</p>
+									<p style="text-align: center;">
+										<iframe title="X_DRE" width="800" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiOTFiYjU1OWMtYTNjYS00N2I1LWE5ZWEtYmZmOGMzYjE1ODE5IiwidCI6ImVkNzJlZGE5LTEyYWQtNDI3Zi04MjM0LWU2Nzc3NTU3OTY1NCJ9&pageName=ReportSectionfc6cdec6bde206315a6c" frameborder="0" allowFullScreen="true"></iframe>
+									</p>
+								</div>
+
+								<!-- Tableau Tab -->
+								<div class="tab-pane fade" id="tableau" role="tabpanel" aria-labelledby="tableau-tab">
+									<h3>Exemplo Tableau</h3>
+									<p>
+										Um modelo de dashboard no Tableau para análise de vendas, clientes, e desempenho...
+									</p>
+									<p style="text-align: center;">
+										<iframe title="Tableau Example" width="800" height="550" src="https://public.tableau.com/views/ExemploVendas/Dashboard1" frameborder="0" allowFullScreen="true"></iframe>
+									</p>
+								</div>
+
+								<!-- Metabase Tab -->
+								<div class="tab-pane fade" id="metabase" role="tabpanel" aria-labelledby="metabase-tab">
+									<h3>Exemplo Metabase</h3>
+									<p>
+										Este painel do Metabase fornece insights baseados em KPIs e análise rápida de métricas importantes...
+									</p>
+									<p style="text-align: center;">
+										<iframe title="Metabase Example" width="800" height="550" src="https://yourmetabaseurl/dashboard/1" frameborder="0" allowFullScreen="true"></iframe>
+									</p>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				&copy; Untitled. All rights reserved. | Design based on: <a href="http://html5up.net">HTML5 UP</a>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
