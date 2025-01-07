@@ -47,7 +47,7 @@
 			#backToTopBtn {
 				position: fixed;
 				bottom: 20px;  /* Distância da parte inferior */
-				right: 20px;   /* Distância da parte direita */
+				left: 10px;   /* Distância da parte direita */
 				display: none; /* Inicialmente escondido */
 				background-color: #007bff;
 				color: white;
@@ -195,21 +195,12 @@
 											cada visualização, compreendendo detalhes importantes e macro tendências que auxiliam na tomada de 
 											decisões informadas e estratégicas.
 										</p>
-										<tableau-viz id="tableauViz" src="https://public.tableau.com/views/SupermarketAnalysis_17059336212200/KPIOverview?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-											iframe-attr-loading="lazy" iframe-attr-class="red-border">
-											<viz-filter field="YEAR(Order Date)" value="2023"></viz-filter>
-											<iframe-style>
-												.red-border { border: 5px solid red !important; }
-											</iframe-style>
-										</tableau-viz>
-										<tableau-viz 
-											id="tableauViz" 
-											src='https://public.tableau.com/views/FinancialDashboardFinancialStatementPerformanceReport/Dashboard8?:language=pt-BR&:sid=&:redirect=auth&:toolbar=n&:display_count=n&:origin=viz_share_link'
-											iframe-attr-loading="lazy" iframe-attr-class="red-border">
-											<iframe-style>
-												.red-border { border: 5px solid red !important; }
-											</iframe-style>
-										</tableau-viz>
+										<iframe 
+											src="https://public.tableau.com/views/SuperstoreOverviewDashboard_17361863845480/HomeLM?:showVizHome=no&:embed=true"
+ 											width="1200" 
+											height="830"
+											style="align-items: center; text-align: center;">
+										</iframe>
 									</div>
 
 									<hr style="border: none; border-top: 2px dashed rgb(172, 189, 207); margin: 30px 0;">
