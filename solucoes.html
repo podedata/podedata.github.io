@@ -1,194 +1,285 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<title>PODE Data | Soluções</title>
-		<link rel="icon" href="images/favicon.ico" sizes="32x32">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/main.css" />
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções em Dados e BI | Podedata</title>
+    <meta name="description" content="Soluções completas em Data Engineering, Business Intelligence e Analytics">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/design-system.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="images/logo_podeData_Transparente_Sem_Nome_V2.png" alt="PODE Data" class="logo-img">
+                    <span class="logo-text">PODE Data</span>
+                </a>
+                
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-link">Início</a>
+                    <a href="solucoes.html" class="nav-link active">Soluções</a>
+                    <a href="aplicacoes.html" class="nav-link">Aplicações</a>
+                    <a href="insights.html" class="nav-link">Cases</a>
+                    <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">Início</a>
+            <a href="solucoes.html" class="mobile-nav-link">Soluções</a>
+            <a href="aplicacoes.html" class="mobile-nav-link">Aplicações</a>
+            <a href="insights.html" class="mobile-nav-link">Cases</a>
+            <a href="contato.html" class="btn btn-primary" style="margin-top: 20px;">Fale Conosco</a>
+        </div>
+    </header>
 
-		<style>
-			.whatsapp-link {
-				position: fixed;
-				width: 60px;
-				height: 60px;
-				bottom: 40px;
-				right: 40px;
-				background-color: #25d366;
-				color: #fff;
-				border-radius: 50px;
-				text-align: center;
-				font-size: 30px;
-				box-shadow: 1px 1px 2px #888;
-				z-index: 1000;
-			}
-			.fa-whatsapp {
-				margin-top: 16px;
-			}
-		  </style>
-	</head>
-	<body class="subpage">
-		<div id="page-wrapper">
+    <!-- HERO -->
+    <section style="padding: 100px 0; background: var(--gradient-hero);">
+        <div class="container">
+            <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h1 style="font-size: var(--text-6xl); margin-bottom: 30px;">
+                    Soluções Completas em <span class="gradient-text">Dados e Business Intelligence</span>
+                </h1>
+                <p style="font-size: var(--text-xl); color: var(--text-secondary);">
+                    Da infraestrutura à visualização, transformamos dados em decisões estratégicas
+                </p>
+            </div>
+        </div>
+    </section>
 
-			<!-- Header -->
-				<section id="header">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
+    <!-- SOLUÇÕES PRINCIPAIS -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Áreas de Atuação</h2>
+            </div>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <!-- Solução 1 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--bg-elevated); border-radius: var(--radius-2xl); border: 2px solid var(--border-light);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">🏗️</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Arquitetura e Estruturação de Ambientes de Dados</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Criamos e organizamos a base para o sucesso dos seus dados. Desde a definição de servidores e 
+                                pipelines até a configuração de data warehouses e data lakes, estruturamos ambientes eficientes 
+                                e escaláveis.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">Arquitetura de data warehouses e data lakes</li>
+                                <li style="margin-bottom: 10px;">Design de pipelines de dados escaláveis</li>
+                                <li style="margin-bottom: 10px;">Modelagem dimensional e normalizada</li>
+                                <li style="margin-bottom: 10px;">Infraestrutura on-premise e cloud</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-								<!-- Logo -->
-									<h1><a href="index.html" id="logo">PODE Data</a></h1>
+                <!-- Solução 2 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--gradient-hero); border-radius: var(--radius-2xl); border: 2px solid var(--color-primary);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">📊</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Extração e Ingestão de Dados</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Centralizamos os dados das suas diversas fontes (APIs, bancos de dados, arquivos externos) 
+                                em um único ambiente, estruturado e organizado.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">ETL/ELT com ferramentas modernas (Pentaho, Airbyte, dbt)</li>
+                                <li style="margin-bottom: 10px;">Integração com APIs e webhooks</li>
+                                <li style="margin-bottom: 10px;">Conectores para ERPs, CRMs e sistemas legados</li>
+                                <li style="margin-bottom: 10px;">Processamento batch e real-time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-								<!-- Nav -->
-									<nav id="nav">
-										<a href="index.html">Sobre</a>
-										<a href="solucoes.html">Soluções</a>
-										<a href="insights.html">Insights</a>
-										<a href="contato.html">Contato</a>
-									<!--
-										<a href="twocolumn2.html">Enriquecimento de Dados</a>
-										<a href="onecolumn.html">Dashboards</a>
-									-->
-									</nav>
+                <!-- Solução 3 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--bg-elevated); border-radius: var(--radius-2xl); border: 2px solid var(--border-light);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">✨</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Enriquecimento e Qualidade de Dados</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Transformamos dados brutos em informações relevantes. Com processos de limpeza, deduplicação 
+                                e enriquecimento, aumentamos a confiabilidade dos seus dados.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">Data quality e data cleansing</li>
+                                <li style="margin-bottom: 10px;">Deduplicação e normalização</li>
+                                <li style="margin-bottom: 10px;">Enriquecimento com fontes externas</li>
+                                <li style="margin-bottom: 10px;">Governança e auditoria de dados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-							</div>
-						</div>
-					</div>
-				</section>
+                <!-- Solução 4 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--bg-elevated); border-radius: var(--radius-2xl); border: 2px solid var(--border-light);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">📈</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Análise de Dados e Insights</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Apoiamos sua equipe na identificação de padrões e tendências através de análises profundas. 
+                                Com dashboards e relatórios visuais, fornecemos insights que transformam dados em decisões.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">Dashboards interativos (Power BI, Tableau, Metabase)</li>
+                                <li style="margin-bottom: 10px;">Análise exploratória de dados</li>
+                                <li style="margin-bottom: 10px;">Estatística descritiva e preditiva</li>
+                                <li style="margin-bottom: 10px;">Data storytelling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-			<!-- Content -->
-				<section id="content">
-					<div class="container">
-						<div class="row">
-							<div class="col-9 col-12-medium">
+                <!-- Solução 5 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--bg-elevated); border-radius: var(--radius-2xl); border: 2px solid var(--border-light);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">⚙️</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Automação e Orquestração de Dados</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Reduzimos esforços manuais e eliminamos gargalos no fluxo de informações, implementando 
+                                automações para rotinas de dados e orquestração eficiente de pipelines.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">Orquestração com Airflow, Prefect</li>
+                                <li style="margin-bottom: 10px;">Agendamento e monitoramento de jobs</li>
+                                <li style="margin-bottom: 10px;">Alertas e notificações automatizadas</li>
+                                <li style="margin-bottom: 10px;">CI/CD para pipelines de dados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-								<!-- Main Content -->
-									<section>
-										<header>
-											<h2>Conheça um pouco da nossa área de atuação</h2>
-											<h3>-----------------------------------------------------------------------</h3>
-										</header>
-										<li> Arquitetura e Estruturação de Ambientes de Dados </li>
-											<p>
-												Criamos e organizamos a base para o sucesso dos seus dados. 
-												Desde a definição de servidores e pipelines até a configuração 
-												de data warehouses e data lakes, estruturamos ambientes eficientes 
-												e escaláveis, garantindo que seus dados estejam sempre disponíveis e seguros.
-											</p>
-										<li>Extração e Ingestão de Dados</li>
-											<p>
-												Centralizamos os dados das suas diversas fontes (APIs, bancos de dados, 
-												arquivos externos) em um único ambiente, estruturado e organizado. 
-												Utilizamos processos ágeis e confiáveis para garantir que nenhuma informação 
-												crítica seja perdida no caminho.
-											</p>
-										<li>Enriquecimento e Qualidade de Dados</li>
-											<p>
-												Transformamos dados brutos em informações relevantes. Com processos de limpeza, 
-												deduplicação e enriquecimento, aumentamos a confiabilidade e a precisão dos seus 
-												dados, para que eles se tornem um ativo valioso no suporte à decisão.
-											</p>
-										<li>Análise de Dados e Insights</li>
-											<p>
-												Apoiamos sua equipe na identificação de padrões e tendências através de análises 
-												profundas e personalizadas. Com dashboards e relatórios visuais em ferramentas 
-												como Tableau, Power BI e Metabase, fornecemos insights que transformam dados 
-												em decisões estratégicas.
-											</p>
-										<li>Automação e Orquestração de Dados</li>
-											<p>
-												Reduzimos esforços manuais e eliminamos gargalos no fluxo de informações, 
-												implementando automações para rotinas de dados e orquestração eficiente de pipelines. 
-												Seu ambiente de dados funcionará de maneira fluida, com processos alinhados às suas necessidades.
-											</p>
-										<li>Soluções Personalizadas para Negócios</li>
-										<p>
-											Cada negócio tem uma necessidade única. Desenvolvemos soluções sob medida para atender às suas 
-											demandas específicas, com integração de dados, modelagem avançada e entrega de resultados focados 
-											nos seus objetivos.
-										</p>
-										<li>Consultoria em Estratégia de Dados</li>
-										<p>
-											Orientamos sua empresa na definição de uma estratégia clara para o uso de dados, ajudando 
-											a maximizar o valor de suas informações. Desde o planejamento inicial até a execução, somos 
-											seus parceiros em cada etapa da jornada.
-										</p>
-										<li>Monitoramento e Suporte Contínuo</li>
-										<p>
-											Garantimos que seus ambientes e processos de dados funcionem perfeitamente. Com monitoramento
-											 proativo e suporte técnico contínuo, estamos ao seu lado para resolver qualquer desafio e 
-											 manter a eficiência do seu ambiente de dados.
-										</p>
-									</section>
+                <!-- Solução 6 -->
+                <div style="padding: 50px; margin-bottom: 40px; background: var(--bg-elevated); border-radius: var(--radius-2xl); border: 2px solid var(--border-light);">
+                    <div style="display: flex; gap: 30px; align-items: start;">
+                        <div style="font-size: 60px; flex-shrink: 0;">🎯</div>
+                        <div>
+                            <h3 style="font-size: var(--text-3xl); margin-bottom: 20px;">Consultoria em Estratégia de Dados</h3>
+                            <p style="margin-bottom: 20px; font-size: var(--text-lg);">
+                                Orientamos sua empresa na definição de uma estratégia clara para o uso de dados, ajudando 
+                                a maximizar o valor de suas informações. Somos seus parceiros em cada etapa da jornada.
+                            </p>
+                            <ul style="padding-left: 25px;">
+                                <li style="margin-bottom: 10px;">Assessment e diagnóstico de maturidade</li>
+                                <li style="margin-bottom: 10px;">Definição de roadmap de dados</li>
+                                <li style="margin-bottom: 10px;">Governança e compliance (LGPD)</li>
+                                <li style="margin-bottom: 10px;">Formação de cultura data-driven</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							</div>
-							<div class="col-3 col-12-medium">
+    <!-- FERRAMENTAS -->
+    <section class="section" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ferramentas e Tecnologias</h2>
+                <p>Trabalhamos com as melhores ferramentas do mercado</p>
+            </div>
+            
+            <div class="grid grid-cols-3">
+                <div style="text-align: center; padding: 30px;">
+                    <h3 style="margin-bottom: 20px;">Business Intelligence</h3>
+                    <p style="color: var(--text-secondary);">Power BI • Tableau • Looker • Qlik • Metabase • Pentaho • Superset</p>
+                </div>
+                <div style="text-align: center; padding: 30px;">
+                    <h3 style="margin-bottom: 20px;">Data Engineering</h3>
+                    <p style="color: var(--text-secondary);">Python • SQL • Pentaho PDI • Airflow • dbt • Spark • Kafka</p>
+                </div>
+                <div style="text-align: center; padding: 30px;">
+                    <h3 style="margin-bottom: 20px;">Cloud & Infraestrutura</h3>
+                    <p style="color: var(--text-secondary);">AWS • Azure • GCP • Docker • Kubernetes • Terraform</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-								<!-- Sidebar -->
-								<section>
-									<header>
-										<h2>Visualização do Dados</h2>
-									</header>
-									<p>
-										A visualização de dados é o ponto de conexão entre o projeto e o usuário final.
-										É nessa etapa que todo o esforço nas fases anteriores — desde a coleta, estruturação
-										e análise dos dados — se transforma em algo tangível e utilizável no dia a dia. Aqui,
-										os dados deixam de ser abstrações técnicas e passam a fornecer informações claras, 
-										acessíveis e acionáveis.
+    <!-- CTA -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; padding: 80px 40px; background: var(--gradient-primary); border-radius: var(--radius-2xl); color: white;">
+                <h2 style="color: white; margin-bottom: 20px;">Pronto para transformar seus dados?</h2>
+                <p style="font-size: var(--text-xl); margin-bottom: 40px; color: rgba(255,255,255,0.9);">
+                    Vamos conversar sobre qual solução é ideal para o seu negócio
+                </p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="contato.html" class="btn btn-large" style="background: white; color: var(--color-primary);">
+                        📧 Falar com Especialista
+                    </a>
+                    <a href="insights.html" class="btn btn-large" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">
+                        Ver Cases →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-										Por meio de ferramentas específicas e adaptadas às necessidades do negócio, garantimos que os 
-										insights sejam apresentados de forma intuitiva, atendendo tanto a profissionais leigos quanto 
-										a especialistas. Para gerentes e diretores, isso significa acesso direto a informações estratégicas
-										que facilitam decisões rápidas e assertivas.
-									</p>
-									<ul class="link-list">
-										<li >Power BI, Tableau, QLik, Looker, Metabase BI, Pentaho Analytics, Superset, entre outras</li>
-									</ul>
-								</section>
+    <!-- FOOTER -->
+    <footer style="background-color: var(--bg-secondary); padding: 60px 0 30px;">
+        <div class="container">
+            <div class="grid grid-cols-4">
+                <div>
+                    <h4>Podedata</h4>
+                    <p style="margin-top: 15px;">Transformando dados em decisões estratégicas</p>
+                </div>
+                <div>
+                    <h4>Links</h4>
+                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
+                        <li style="margin-bottom: 10px;"><a href="solucoes.html">Soluções</a></li>
+                        <li style="margin-bottom: 10px;"><a href="aplicacoes.html">Aplicações</a></li>
+                        <li style="margin-bottom: 10px;"><a href="insights.html">Cases</a></li>
+                        <li style="margin-bottom: 10px;"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Aplicações</h4>
+                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
+                        <li style="margin-bottom: 10px;"><a href="https://evobi.axetecnologia.com.br/" target="_blank">EvoDB</a></li>
+                        <li style="margin-bottom: 10px;"><a href="https://ia.sales.axetecnologia.com.br/" target="_blank">IA Sales</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contato</h4>
+                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
+                        <li style="margin-bottom: 10px;"><a href="tel:+5547991977935">(47) 9 9197-7935</a></li>
+                        <li style="margin-bottom: 10px;"><a href="mailto:contato@podedata.com.br">contato@podedata.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border-light);">
+                <p style="color: var(--text-tertiary);">&copy; 2025 Podedata. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
-							</div>
-						</div>
-					</div>
-				</section>
+    <a href="https://wa.me/5547991977935" class="whatsapp-float" target="_blank">💬</a>
 
-				<!-- Footer Wrapper -->
-				<footer id="footer" class="container">
-					<!-- Contact Section -->
-					<section>
-						<h2 style="text-align: center; margin-bottom: 30px;">Entre em contato conosco</h2>
-						<div class="row aln-center">
-							<!-- Informações de contato -->
-							<div class="col-6 col-12-small">
-								<dl class="contact">
-									<dt><strong>WhatsApp</strong></dt>
-									<dd><a href="https://wa.me/5547991977935">(47)9 9197-7935</a></dd>
-									<dt><strong>E-mail</strong></dt>
-									<dd><a href="mailto:contato@podedata.com.br">contato@podedata.com.br</a></dd>
-								</dl>
-							</div>
-						</div>
-					</section>
-
-					<!-- Copyright -->
-					<div id="copyright">
-						<p>&copy; 2024 Pode Data. All rights reserved. Design basead on: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
-					</div>
-					<div>
-						<a class="whatsapp-link" href="https://wa.me/5547991977935" target="_blank">
-						  <i class="fa fa-whatsapp"></i>
-						</a>
-					  </div>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="assets/js/navigation.js"></script>
+</body>
 </html>
