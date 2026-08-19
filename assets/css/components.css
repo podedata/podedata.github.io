@@ -270,11 +270,10 @@
   background-color: var(--bg-elevated);
   border-radius: var(--radius-2xl);
   overflow: hidden;
-  transition: all var(--transition-base);
+  transition: box-shadow var(--transition-base);
 }
 
 .case-card:hover {
-  transform: translateY(-8px);
   box-shadow: var(--shadow-2xl);
 }
 
@@ -306,15 +305,11 @@
 }
 
 .case-thumbnail img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top center;
-  transition: transform var(--transition-slow);
-}
-
-.case-card:hover .case-thumbnail img {
-  transform: scale(1.05);
 }
 
 .case-content {
