@@ -1,224 +1,322 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PODE Data | Arquitetura de Dados e Business Intelligence</title>
-	<meta name="description" content="Transformamos dados em decisões estratégicas com soluções de Engenharia de Dados, BI e Analytics.">
-	<link rel="icon" type="image/png" href="images/logo_podeData_Transparente_Sem_Nome_V2.png?v=20260402">
-	<link rel="icon" href="images/favicon.ico?v=20260402" type="image/x-icon">
-	<link rel="shortcut icon" href="images/favicon.ico?v=20260402" type="image/x-icon">
-	<link rel="stylesheet" href="assets/css/design-system.css">
-	<link rel="stylesheet" href="assets/css/layout.css">
-	<link rel="stylesheet" href="assets/css/components.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.podedata.com.br/">
+<meta name="theme-color" content="#0B1222">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="PODE Data">
+<meta property="og:url" content="https://www.podedata.com.br/">
+<meta property="og:title" content="PODE Data | Software e dados para pequenos negócios">
+<meta property="og:description" content="NK ONE, NK Action, EvoBI, SaveDin e gestão para lavações: aplicativos e soluções de dados que organizam a rotina e ajudam a decidir melhor.">
+<meta property="og:image" content="https://www.podedata.com.br/assets/site/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PODE Data | Software e dados para pequenos negócios">
+<meta name="twitter:description" content="Aplicativos e soluções de dados para pequenos negócios.">
+<meta name="twitter:image" content="https://www.podedata.com.br/assets/site/og-image.png">
+<title>PODE Data | Software e dados para pequenos negócios</title>
+<meta name="description" content="A PODE Data cria aplicativos e soluções de dados para pequenos negócios: NK ONE, NK Action, EvoBI, SaveDin, gestão para lavações e estéticas automotivas, BI e engenharia de dados.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/site/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/site/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header class="site-header" id="header">
-		<div class="container">
-			<div class="header-content">
-				<a href="index.html" class="logo">
-					<img src="images/logo_podeData_Transparente_Sem_Nome_V2.png" alt="PODE Data" class="logo-img">
-					<span class="logo-text">PODE Data</span>
-				</a>
 
-				<nav class="main-nav">
-					<a href="index.html" class="nav-link active">Início</a>
-					<a href="solucoes.html" class="nav-link">Soluções</a>
-					<a href="aplicacoes.html" class="nav-link">Aplicações</a>
-					<a href="insights.html" class="nav-link">Cases</a>
-					<a href="contato.html" class="btn btn-primary">Fale Conosco</a>
-				</nav>
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="brand">
+      <img src="assets/site/podedata-logo-sm.png" alt="" width="34" height="39">
+      <span>PODE <b>Data</b></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#produtos">Produtos</a>
+      <a href="#dados">Dados &amp; BI</a>
+      <a href="#como-trabalhamos">Como trabalhamos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato" class="btn btn--sm btn--primary">Fale com a gente</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',document.body.classList.contains('nav-open'))"><span></span><span></span><span></span></button>
+  </div>
+</header>
 
-				<div class="header-actions">
-					<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menu">
-						<span class="hamburger-line"></span>
-						<span class="hamburger-line"></span>
-						<span class="hamburger-line"></span>
-					</button>
-				</div>
-			</div>
-		</div>
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__glow"></div>
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow eyebrow--dark"><i class="dot"></i> Apps próprios · Dados &amp; BI · Sob medida</span>
+      <h1>Software e dados para o <span class="grad">pequeno negócio</span> crescer com controle.</h1>
+      <p class="lead">A PODE Data cria aplicativos simples de usar e soluções de dados que organizam a rotina, mostram os números certos e ajudam você a decidir melhor.</p>
+      <div class="hero__cta">
+        <a href="#produtos" class="btn btn--primary btn--lg">Conheça nossos apps</a>
+        <a href="#contato" class="btn btn--ghost btn--lg">Fale com a gente</a>
+      </div>
+      <ul class="hero__chips">
+        <li>🔒 MFA e controle de acesso</li>
+        <li>🛡️ Feito com a LGPD em mente</li>
+        <li>☁️ 100% na nuvem</li>
+      </ul>
+    </div>
 
-		<div class="mobile-nav" id="mobile-nav">
-			<a href="index.html" class="mobile-nav-link">Início</a>
-			<a href="solucoes.html" class="mobile-nav-link">Soluções</a>
-			<a href="aplicacoes.html" class="mobile-nav-link">Aplicações</a>
-			<a href="insights.html" class="mobile-nav-link">Cases</a>
-			<a href="contato.html" class="btn btn-primary" style="margin-top: 20px;">Fale Conosco</a>
-		</div>
-	</header>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="win win--main">
+        <div class="win__bar"><i></i><i></i><i></i><span>savedin.com.br</span></div>
+        <div class="win__body">
+          <div class="mini-head"><img src="assets/site/savedin-icon.svg" alt=""><b>SaveDin</b><em>Visão do mês</em></div>
+          <div class="kpis">
+            <div><small>Entradas</small><strong class="up">R$ 6.200</strong></div>
+            <div><small>Saídas</small><strong class="down">R$ 4.380</strong></div>
+            <div><small>Saldo</small><strong>R$ 1.820</strong></div>
+          </div>
+          <div class="bars"><i style="--h:45%"></i><i style="--h:70%"></i><i style="--h:52%"></i><i style="--h:84%"></i><i style="--h:60%"></i><i style="--h:92%"></i><i style="--h:74%"></i></div>
+          <div class="rows">
+            <div><span class="pill pill--g">OFX</span>Extrato importado<em>Hoje</em></div>
+            <div><span class="pill pill--b">3/10</span>Parcela do cartão<em>15/12</em></div>
+          </div>
+        </div>
+      </div>
+      <div class="win win--float">
+        <div class="win__body">
+          <div class="mini-head"><span class="ico-car">🚗</span><b>Pátio</b><em>Agora</em></div>
+          <div class="stage"><span>Fila</span><span class="on">Lavando</span><span>Secagem</span><span>Pronto</span></div>
+          <div class="tv">Próximo: <b>ABC-1D23</b></div>
+        </div>
+      </div>
+      <p class="visual-note">Ilustração das telas · valores fictícios</p>
+    </div>
+  </div>
+</section>
 
-	<section style="padding: 100px 0; background: var(--gradient-hero);">
-		<div class="container">
-			<div class="grid grid-cols-2" style="align-items: center; gap: var(--space-16);">
-				<div>
-					<h1 style="font-size: var(--text-6xl); line-height: 1.1; margin-bottom: 24px;">
-						Transformamos <span class="gradient-text">dados</span> em decisões estratégicas
-					</h1>
-					<p style="font-size: var(--text-xl); color: var(--text-secondary); margin-bottom: 32px;">
-						Na PODE Data, entregamos soluções inovadoras e personalizadas. Unimos especialistas em dados e negócio para transformar informações em insights acionáveis.
-					</p>
-					<div style="display: flex; gap: var(--space-4); flex-wrap: wrap;">
-						<a href="contato.html" class="btn btn-primary btn-large">Fale Conosco</a>
-						<a href="solucoes.html" class="btn btn-secondary btn-large">Ver Soluções</a>
-					</div>
-				</div>
-				<div>
-					<img src="images/visao_dados.jpg" alt="Visualização de dados e analytics" style="border-radius: var(--radius-2xl); border: 2px solid var(--border-light); box-shadow: var(--shadow-xl);">
-				</div>
-			</div>
-		</div>
-	</section>
+<!-- O QUE FAZEMOS -->
+<section class="pillars">
+  <div class="container pillars__grid">
+    <div class="pillar"><span class="pillar__ico">📱</span><div><h3>Apps próprios</h3><p>Produtos prontos para usar, com assinatura e teste grátis.</p></div></div>
+    <div class="pillar"><span class="pillar__ico">📊</span><div><h3>Dados &amp; BI</h3><p>Da base de dados ao dashboard que a diretoria entende.</p></div></div>
+    <div class="pillar"><span class="pillar__ico">🧩</span><div><h3>Sob medida</h3><p>Sistemas e automações desenhados para o seu processo.</p></div></div>
+  </div>
+</section>
 
-	<section class="section">
-		<div class="container">
-			<div class="section-header">
-				<h2>Sobre a PODE Data</h2>
-				<p style="font-size: var(--text-lg); color: var(--text-secondary);">
-					Um padrão único, moderno e consistente em todas as páginas, com foco em clareza, performance e experiência.
-				</p>
-			</div>
+<!-- PRODUTOS -->
+<section class="section" id="produtos">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">Nossos apps</span>
+      <h2>Feitos para a rotina de quem toca o negócio</h2>
+      <p>Inteligência comercial, execução e gestão do dia a dia: aplicativos web que funcionam no celular e no computador, sem instalar nada.</p>
+    </header>
 
-			<div class="grid grid-cols-4">
-				<div class="service-card">
-					<div class="service-icon">👥</div>
-					<h3>Quem Somos</h3>
-					<p>
-						Somos uma equipe apaixonada por dados, impulsionada pela missão de capacitar empresas a tomarem decisões informadas e estratégicas.
-					</p>
-				</div>
+    <div class="nk">
+      <a class="nk__card nk__card--one" href="https://conheca.one.northkeep.com.br/" target="_blank" rel="noopener">
+        <div class="nk__top"><span class="nk__logo">ONE</span><span class="badge badge--live"><i class="dot"></i> No ar</span></div>
+        <h3>NK ONE</h3>
+        <p class="nk__tag">Inteligência estratégica comercial</p>
+        <p>Transforma dados comerciais em decisões priorizadas: mostra o que aconteceu, por que aconteceu e qual ação entra primeiro. Funciona com SAP, outros ERPs ou planilha.</p>
+        <ul class="nk__list"><li>IA descritiva, diagnóstica, preditiva e prescritiva</li><li>Gaps territoriais, radar de representantes e mix por carteira</li><li>Alertas de churn, anomalia e risco de recebíveis</li></ul>
+        <span class="nk__cta">Conhecer o NK ONE →</span>
+      </a>
+      <a class="nk__card nk__card--action" href="https://action.northkeep.com.br/" target="_blank" rel="noopener">
+        <div class="nk__top"><span class="nk__logo nk__logo--action">NK</span><span class="badge badge--live"><i class="dot"></i> No ar</span></div>
+        <h3>NK Action</h3>
+        <p class="nk__tag">Da decisão à execução, sem perder o responsável</p>
+        <p>Organize planos de ação, atribua responsáveis, acompanhe prazos e registre devolutivas com evidência. Use sozinho ou conectado ao NK ONE.</p>
+        <ul class="nk__list"><li>Planos de ação com responsáveis e prazos</li><li>Indicadores e metas com alerta de desvio</li><li>Ata com IA: a IA sugere, o gestor revisa</li></ul>
+        <span class="nk__cta">Conhecer o NK Action →</span>
+      </a>
+      <p class="nk__flow">O NK ONE recomenda <b>→</b> a liderança valida <b>→</b> o NK Action acompanha a execução</p>
+      <a class="nk__card nk__card--evo" href="https://evobi.axetecnologia.com.br/" target="_blank" rel="noopener">
+        <div class="evo__copy">
+          <div class="nk__top"><span class="evo__logo"><img src="assets/site/evobi-logo.png" alt="EvoBI" width="120" height="49"></span><span class="badge badge--live"><i class="dot"></i> No ar</span></div>
+          <h3>EvoBI</h3>
+          <p class="nk__tag">O portal único para dados corporativos, BI e IA, da PODE Data</p>
+          <p>Plataforma de embed de painéis: centraliza Power BI, Tableau e outras ferramentas de analytics em um só ambiente, com governança, segurança e IA. Hospedado em parceria com a Áxe Tecnologia.</p>
+          <ul class="nk__list nk__list--2"><li>Power BI e Tableau no mesmo portal</li><li>IA: pergunte aos dados em linguagem natural</li><li>Usuários, empresas, licenças e permissões</li><li>SSO, MFA, sessão única e auditoria</li><li>White label: identidade visual por empresa</li><li>Relatórios de uso e acessos</li></ul>
+          <span class="nk__cta">Conhecer o EvoBI →</span>
+        </div>
+        <div class="evo__visual" aria-hidden="true">
+          <img class="evo__shot evo__shot--back" src="assets/site/evobi-dashboards.jpg" alt="">
+          <img class="evo__shot evo__shot--front" src="assets/site/evobi-home.jpg" alt="">
+          <span class="evo__note">Telas reais do EvoBI</span>
+        </div>
+      </a>
+    </div>
 
-				<div class="service-card">
-					<div class="service-icon">🧭</div>
-					<h3>Nossa Abordagem</h3>
-					<p>
-						Cada empresa é única. Trabalhamos lado a lado para entender objetivos e desafios, entregando soluções sob medida com foco em resultados.
-					</p>
-				</div>
+    <article class="product product--savedin">
+      <div class="product__info">
+        <div class="product__brand">
+          <img src="assets/site/savedin-icon.svg" alt="" width="56" height="56">
+          <div><h3>SaveDin</h3><span class="badge badge--live"><i class="dot"></i> No ar</span></div>
+        </div>
+        <p class="product__tagline">Finanças pessoais sem planilha.</p>
+        <p>Importe o extrato do banco, organize cartões e parcelas e veja para onde vai o seu dinheiro em poucos cliques.</p>
+        <ul class="checks">
+          <li>Importação de extrato em <b>OFX e CSV</b></li>
+          <li><b>Cartões e parcelas</b> sob controle</li>
+          <li><b>Contas a pagar</b> com vencimentos</li>
+          <li><b>Relatórios e fluxo de caixa</b></li>
+          <li>Login com <b>MFA</b> (verificação em duas etapas)</li>
+          <li>Planos com <b>teste grátis</b></li>
+        </ul>
+        <div class="product__cta">
+          <a href="https://savedin.com.br" class="btn btn--savedin btn--lg" target="_blank" rel="noopener">Começar no SaveDin →</a>
+          <span class="muted">savedin.com.br</span>
+        </div>
+      </div>
+      <div class="product__shot" aria-hidden="true">
+        <div class="phone">
+          <div class="phone__notch"></div>
+          <div class="phone__screen">
+            <div class="ph-top"><img src="assets/site/savedin-icon.svg" alt=""><span>Olá!</span></div>
+            <div class="ph-card"><small>Saldo do mês</small><strong>R$ 1.820,00</strong><div class="ph-line"></div></div>
+            <div class="ph-list">
+              <div><i class="c1"></i>Mercado<em>– R$ 312,40</em></div>
+              <div><i class="c2"></i>Salário<em class="up">+ R$ 6.200</em></div>
+              <div><i class="c3"></i>Parcela 2/6<em>– R$ 189,90</em></div>
+              <div><i class="c1"></i>Luz<em>– R$ 148,72</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
 
-				<div class="service-card">
-					<div class="service-icon">🎯</div>
-					<h3>Nossa Missão</h3>
-					<p>
-						Capacitar empresas a decidirem melhor por meio do poder dos dados, com uma base sólida e visualizações que aceleram a ação.
-					</p>
-				</div>
+    <article class="product product--wash">
+      <div class="product__shot product__shot--wash" aria-hidden="true">
+        <div class="board">
+          <div class="board__head"><b>Pátio de hoje</b><span>TV · modo painel</span></div>
+          <div class="board__cols">
+            <div><h4>Fila</h4><p class="car">ABC-1D23<small>Lavagem simples</small></p><p class="car">XYZ-9K87<small>Higienização</small></p></div>
+            <div><h4>Lavando</h4><p class="car car--on">QWE-4R56<small>Polimento · etapa 2/3</small></p></div>
+            <div><h4>Pronto</h4><p class="car car--ok">RTY-7U89<small>Aguardando retirada</small></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="product__info">
+        <div class="product__brand">
+          <div class="wash-ico">🚿</div>
+          <div><h3>App para lavações e estéticas</h3><span class="badge badge--soon">Nome em breve · em uso piloto</span></div>
+        </div>
+        <p class="product__tagline">O pátio inteiro na palma da mão.</p>
+        <p>Gestão completa para lava-jatos, lavações e estéticas automotivas: do carro que chega ao carro entregue.</p>
+        <ul class="checks checks--wash">
+          <li><b>Pátio, fila e etapas</b> de cada serviço</li>
+          <li><b>Painéis para TV</b> na recepção</li>
+          <li><b>Portal do cliente</b> para acompanhar o carro</li>
+          <li><b>Agenda</b> de serviços</li>
+          <li><b>Equipe e papéis</b> com permissões</li>
+          <li><b>MFA</b> e <b>convites por e-mail</b></li>
+        </ul>
+        <div class="product__cta">
+          <a href="#contato" class="btn btn--dark btn--lg">Quero saber quando lançar</a>
+        </div>
+      </div>
+    </article>
 
-				<div class="service-card">
-					<div class="service-icon">🏆</div>
-					<h3>Nossos Valores</h3>
-					<ul style="padding-left: 20px; color: var(--text-secondary);">
-						<li style="margin-bottom: 10px;"><strong>Excelência</strong> em qualidade e experiência</li>
-						<li style="margin-bottom: 10px;"><strong>Inovação</strong> para manter vantagem competitiva</li>
-						<li style="margin-bottom: 10px;"><strong>Parceria</strong> com compromisso e proximidade</li>
-						<li style="margin-bottom: 10px;"><strong>Integridade</strong> em todas as interações</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+  </div>
+</section>
 
-	<section class="section">
-		<div class="container">
-			<div class="section-header">
-				<h2>Aplicações em produção</h2>
-				<p style="font-size: var(--text-lg); color: var(--text-secondary);">
-					Produtos prontos para acelerar portal de dados, inteligência comercial e execução de indicadores.
-				</p>
-			</div>
+<!-- DADOS & BI -->
+<section class="section section--dark" id="dados">
+  <div class="container">
+    <header class="section__head section__head--light">
+      <span class="eyebrow eyebrow--dark">Dados &amp; BI</span>
+      <h2>Seus dados organizados, confiáveis e prontos para decidir</h2>
+      <p>Da infraestrutura à visualização, com projetos sob medida para o seu tamanho.</p>
+    </header>
+    <div class="svc-grid">
+      <div class="svc"><span>🏗️</span><h3>Arquitetura de dados</h3><p>Data warehouse, data lake e modelagem pensados para crescer.</p></div>
+      <div class="svc"><span>🔌</span><h3>Extração e ingestão</h3><p>APIs, ERPs, bancos e planilhas centralizados em um só lugar.</p></div>
+      <div class="svc"><span>✨</span><h3>Qualidade de dados</h3><p>Limpeza, deduplicação e governança para números confiáveis.</p></div>
+      <div class="svc"><span>📈</span><h3>Dashboards e análises</h3><p>Power BI, Tableau e Metabase com foco no que importa.</p></div>
+      <div class="svc"><span>⚙️</span><h3>Automação</h3><p>Rotinas e pipelines que eliminam o trabalho manual.</p></div>
+      <div class="svc svc--cta"><h3>Tem um desafio com dados?</h3><p>Conte o cenário e desenhamos o caminho com você.</p><a href="#contato" class="btn btn--primary">Conversar</a><a href="insights.html" class="svc__link">Ver cases e demonstrações →</a></div>
+    </div>
+  </div>
+</section>
 
-			<div class="grid grid-cols-3" style="gap: var(--space-8);">
-				<article class="case-card">
-					<div class="case-thumbnail">
-						<img src="images/dashs_visao.png" alt="EvoBI — Portal de Dados Corporativo">
-					</div>
-					<div class="case-content">
-						<h3>EvoBI</h3>
-						<p>Portal único para centralizar dashboards corporativos com segurança, governança e experiência padronizada.</p>
-						<a href="aplicacoes.html" class="btn btn-secondary">Ver aplicação</a>
-					</div>
-				</article>
+<!-- COMO TRABALHAMOS -->
+<section class="section" id="como-trabalhamos">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">Como trabalhamos</span>
+      <h2>Segurança e privacidade desde a primeira linha de código</h2>
+    </header>
+    <div class="trust">
+      <div class="trust__card"><div class="trust__ico">🔐</div><h3>Segurança</h3><ul><li>Verificação em duas etapas (MFA)</li><li>Acesso por papéis e permissões</li><li>Conexão sempre criptografada (HTTPS)</li><li>Limite de tentativas de login</li></ul></div>
+      <div class="trust__card"><div class="trust__ico">🛡️</div><h3>LGPD</h3><ul><li>Coletamos só o necessário</li><li>Exportação e exclusão da conta pelo próprio usuário</li><li>Política de privacidade e termos claros</li><li>Registro do aceite dos termos</li></ul></div>
+      <div class="trust__card"><div class="trust__ico">🌐</div><h3>Nuvem</h3><ul><li>Backups diários</li><li>Versões publicadas com histórico</li><li>Proteção de rede com Cloudflare</li><li>Acesse de qualquer lugar</li></ul></div>
+    </div>
+    <ol class="steps">
+      <li><b>1</b><h4>Entender</h4><p>Conversa para conhecer o negócio e a dor real.</p></li>
+      <li><b>2</b><h4>Prototipar</h4><p>Mock e protótipo para validar antes de construir.</p></li>
+      <li><b>3</b><h4>Entregar em versões</h4><p>Entregas curtas, testadas e com backup.</p></li>
+      <li><b>4</b><h4>Acompanhar</h4><p>Suporte e melhorias contínuas depois do lançamento.</p></li>
+    </ol>
+  </div>
+</section>
 
-				<article class="case-card">
-					<div class="case-thumbnail">
-						<img src="images/one_home_focus.png" width="1334" height="750" alt="ONE — Inteligência Estratégica">
-					</div>
-					<div class="case-content">
-						<h3>ONE</h3>
-						<p>Inteligência estratégica de negócios com IA descritiva, diagnóstica, preditiva e prescritiva — e ponte para o plano de ação.</p>
-						<a href="aplicacoes.html" class="btn btn-secondary">Ver aplicação</a>
-					</div>
-				</article>
+<!-- SOBRE -->
+<section class="section section--soft" id="sobre">
+  <div class="container about">
+    <div class="about__logo"><img src="assets/site/podedata-logo.png" alt="Logo PODE Data" width="240" height="274"></div>
+    <div class="about__copy">
+      <span class="eyebrow">Sobre a PODE Data</span>
+      <h2>Tecnologia que cabe no seu negócio</h2>
+      <p>Somos uma equipe apaixonada por dados e por software bem feito. Unimos experiência em engenharia de dados e BI com o desenvolvimento de aplicativos próprios, sempre com um objetivo: dar ao empreendedor clareza para decidir.</p>
+      <div class="values">
+        <div><b>Excelência</b><span>Qualidade em cada entrega</span></div>
+        <div><b>Inovação</b><span>Tecnologia atual, sem complicar</span></div>
+        <div><b>Parceria</b><span>Proximidade e compromisso</span></div>
+        <div><b>Integridade</b><span>Transparência em tudo</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-				<article class="case-card">
-					<div class="case-thumbnail">
-						<img src="images/kpi_dash_focus.png" width="1008" height="567" alt="KPI System — Indicadores e Planos de Ação">
-					</div>
-					<div class="case-content">
-						<h3>KPI System</h3>
-						<p>Metas, resultados mensais e planos de ação com responsáveis, prazos e extração de atas com IA.</p>
-						<a href="aplicacoes.html" class="btn btn-secondary">Ver aplicação</a>
-					</div>
-				</article>
-			</div>
-		</div>
-	</section>
+<!-- CONTATO -->
+<section class="section" id="contato">
+  <div class="container contact">
+    <div class="contact__copy">
+      <span class="eyebrow">Contato</span>
+      <h2>Vamos conversar?</h2>
+      <p>Quer usar um dos nossos apps, ser avisado do lançamento do app para lavações ou tem um projeto de dados? Fale com a gente.</p>
+      <div class="contact__ways">
+        <a href="https://wa.me/5547991977935" target="_blank" rel="noopener" class="way"><span>💬</span><div><b>WhatsApp</b><small>(47) 9 9197-7935</small></div></a>
+        <a href="mailto:contato@podedata.com.br" class="way"><span>✉️</span><div><b>E-mail</b><small>contato@podedata.com.br</small></div></a>
+        <div class="way"><span>🕘</span><div><b>Atendimento</b><small>Segunda a sexta, 9h às 18h</small></div></div>
+      </div>
+    </div>
+    <div class="cta-box">
+      <h3>Fale direto com a gente</h3>
+      <p>Respondemos pelo WhatsApp ou por e-mail em horário comercial. Conte um pouco sobre o seu negócio ou o app que te interessa.</p>
+      <a href="https://wa.me/5547991977935?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20PODE%20Data" class="btn btn--wa btn--lg btn--block" target="_blank" rel="noopener">💬 Chamar no WhatsApp</a>
+      <a href="mailto:contato@podedata.com.br?subject=Contato%20pelo%20site" class="btn btn--primary btn--lg btn--block">✉️ Enviar e-mail</a>
+      <a href="https://wa.me/5547991977935?text=Ol%C3%A1%2C%20quero%20saber%20quando%20o%20app%20para%20lava%C3%A7%C3%B5es%20lan%C3%A7ar" class="cta-box__link" target="_blank" rel="noopener">Quero saber quando o app para lavações lançar →</a>
+    </div>
+  </div>
+</section>
+</main>
 
-	<section class="section">
-		<div class="container">
-			<div style="text-align: center; padding: 80px 40px; background: var(--gradient-primary); border-radius: var(--radius-2xl); color: white;">
-				<h2 style="color: white; margin-bottom: 20px;">Pronto para transformar seus dados?</h2>
-				<p style="font-size: var(--text-xl); margin-bottom: 40px; color: rgba(255,255,255,0.92);">
-					Conte sobre seu desafio e vamos desenhar o melhor caminho com BI, Engenharia de Dados e Analytics.
-				</p>
-				<a href="contato.html" class="btn btn-large" style="background: white; color: var(--color-neutral-900); border: none;">
-					Entrar em Contato
-				</a>
-			</div>
-		</div>
-	</section>
-
-	<footer style="background-color: var(--bg-secondary); padding: 60px 0 30px;">
-		<div class="container">
-			<div class="grid grid-cols-4">
-				<div>
-					<h4>Podedata</h4>
-					<p style="margin-top: 15px;">Transformando dados em decisões estratégicas</p>
-				</div>
-				<div>
-					<h4>Links</h4>
-					<ul style="list-style: none; padding: 0; margin-top: 15px;">
-						<li style="margin-bottom: 10px;"><a href="solucoes.html">Soluções</a></li>
-						<li style="margin-bottom: 10px;"><a href="aplicacoes.html">Aplicações</a></li>
-						<li style="margin-bottom: 10px;"><a href="insights.html">Cases</a></li>
-						<li style="margin-bottom: 10px;"><a href="contato.html">Contato</a></li>
-					</ul>
-				</div>
-				<div>
-					<h4>Aplicações</h4>
-					<ul style="list-style: none; padding: 0; margin-top: 15px;">
-						<li style="margin-bottom: 10px;"><a href="https://evobi.axetecnologia.com.br/" target="_blank" rel="noopener noreferrer">EvoBI</a></li>
-						<li style="margin-bottom: 10px;"><a href="https://conheca.one.northkeep.com.br/" target="_blank" rel="noopener noreferrer">ONE</a></li>
-						<li style="margin-bottom: 10px;"><a href="https://kpi.northkeep.com.br/" target="_blank" rel="noopener noreferrer">KPI System</a></li>
-					</ul>
-				</div>
-				<div>
-					<h4>Contato</h4>
-					<ul style="list-style: none; padding: 0; margin-top: 15px;">
-						<li style="margin-bottom: 10px;"><a href="tel:+5547991977935">(47) 9 9197-7935</a></li>
-						<li style="margin-bottom: 10px;"><a href="mailto:contato@podedata.com.br">contato@podedata.com.br</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--border-light);">
-				<p style="color: var(--text-tertiary);">&copy; 2026 PODE Data. Todos os direitos reservados.</p>
-			</div>
-		</div>
-	</footer>
-
-	<a href="https://wa.me/5547991977935" class="whatsapp-float" target="_blank" rel="noopener noreferrer">💬</a>
-
-	<script src="assets/js/navigation.js"></script>
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <a href="#top" class="brand brand--light"><img src="assets/site/podedata-logo-sm.png" alt="" width="34" height="39"><span>PODE <b>Data</b></span></a>
+      <p>Software e dados para pequenos negócios.</p>
+    </div>
+    <div><h4>Apps</h4><a href="https://conheca.one.northkeep.com.br/" target="_blank" rel="noopener">NK ONE</a><a href="https://action.northkeep.com.br/" target="_blank" rel="noopener">NK Action</a><a href="https://evobi.axetecnologia.com.br/" target="_blank" rel="noopener">EvoBI</a><a href="https://savedin.com.br" target="_blank" rel="noopener">SaveDin</a><a href="#produtos">App para lavações (em breve)</a></div>
+    <div><h4>Empresa</h4><a href="#dados">Dados &amp; BI</a><a href="#como-trabalhamos">Como trabalhamos</a><a href="#sobre">Sobre</a><a href="insights.html">Cases e demonstrações</a></div>
+    <div><h4>Contato</h4><a href="https://wa.me/5547991977935">(47) 9 9197-7935</a><a href="mailto:contato@podedata.com.br">contato@podedata.com.br</a></div>
+  </div>
+  <div class="container footer__bottom">© 2026 PODE Data. Todos os direitos reservados.</div>
+</footer>
+<a href="https://wa.me/5547991977935" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 </body>
 </html>
