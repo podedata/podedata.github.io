@@ -7,7 +7,7 @@
  *  ga4Id:     ID de medição do Google Analytics 4 (ex.: "G-XXXXXXXXXX")
  */
 window.PODE_SITE_CONFIG = {
-  clarityId: "",
+  clarityId: "zids0doegq",
   ga4Id: "",
   privacyUrl: "/privacidade.html"
 };
